@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import Cart from './components/Cart/Cart'
@@ -35,7 +35,7 @@ const routes= createBrowserRouter([
     {path:'*',element:<Error/>},
     
   ]}
-])
+],{ basename: "/E-commerce-react" })
 
 export default function App() {
   return <>
