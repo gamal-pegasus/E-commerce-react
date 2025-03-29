@@ -10,5 +10,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  base: "/E-commerce-react/",
+  
 };
